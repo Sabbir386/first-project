@@ -45,10 +45,12 @@
 }
 
 .btn-style {
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 20px;
     padding: 18px 20px;
     margin-top: 30px;
+    border-radius: 8px;
+    border: none;
     background-color: #F15B22;
     color: #FFFFFF;
 }
@@ -65,12 +67,14 @@ main {
     justify-content: center;
     align-items: center;
 }
-.person-img{
-   background-image:url('../images/gradient2.png'),
-   linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
-   background-blend-mode: overlay;
+
+.person-img {
+    background-image: url('../images/gradient2.png'),
+    linear-gradient(rgba(192, 37, 37, 0.418), rgba(145, 18, 18, 0.5));
+    background-blend-mode: overlay;
 
 }
+
 .motivation {
     padding: 80px;
 
@@ -93,6 +97,7 @@ main {
 ul {
     list-style: none;
 }
+
 ul li:before {
     content: '✓';
     color: aqua;
@@ -103,3 +108,36 @@ ul li:before {
     font-size: 20px;
     color: #444343;
 }
+
+/* skills-section styling */
+.plan{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+ .skills-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: ;
+}
+
+.i-will-do {
+    color: #737272;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+    margin-top: 25px;
+    margin-bottom: 16px;
+} 
