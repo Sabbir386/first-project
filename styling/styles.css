@@ -70,7 +70,7 @@ main {
 
 .person-img {
     background-image: url('../images/gradient2.png'),
-    linear-gradient(rgba(192, 37, 37, 0.418), rgba(145, 18, 18, 0.5));
+        linear-gradient(rgba(192, 37, 37, 0.418), rgba(145, 18, 18, 0.5));
     background-blend-mode: overlay;
 
 }
@@ -110,16 +110,17 @@ ul li:before {
 }
 
 /* skills-section styling */
-.plan{
+.plan {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+
 }
- .skills-section {
+
+.skills-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,10 +135,125 @@ ul li:before {
     font-size: 25px;
 }
 
-.skill-title{
+.skill-title {
     font-weight: 700;
     font-size: 35px;
     color: #151414;
     margin-top: 25px;
     margin-bottom: 16px;
-} 
+}
+
+/* contact section styling */
+.be-positive {
+    width: 460px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 35px;
+    color: #FFFFFF;
+
+}
+
+.contact-btn {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 35px;
+    margin-bottom: 35px;
+
+}
+
+.contact-section {
+    background-image: url('../images/watch.png');
+
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/* footer setion */
+.footer-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(156, 108, 108);
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+
+
+}
+
+.fb-twiter-youtube {
+    display: flex;
+    margin-top: 60px;
+}
+
+.footer-Title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    width: 148px;
+    height: 53px;
+}
+
+.footer-color {
+    color: #FFFFFF;
+}
+
+.footer-blogs {
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    margin-top: 18px;
+    font-size: 16px;
+
+}
+
+.info-mail {
+    margin-bottom: 24px;
+}
+
+.info-phone {
+    margin-top: 16px;
+}
+
+.info-mail-phone {
+    width: 400px;
+    font-size: 16px;
+    height: 25px;
+    font-weight: 400px;
+}
+
+.form-title {
+    margin-bottom: 35px;
+    width: 123px;
+    height: 29px font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+
+}
+
+.email-adj {
+    width: 240px;
+    height:50px;
+    padding-left: 18px;
+    margin-bottom: 24px;
+    color: #F3F3F3;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+.btn-subscribe{
+    padding: 20px;
+    width: 130px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: blue;
+    border: none;
+}
