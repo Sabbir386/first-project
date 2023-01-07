@@ -242,6 +242,9 @@ ul li:before {
     height: 25px;
     font-weight: 400px;
 }
+.icon{
+   padding-right:16px;
+}
 .footer-section-info{
     margin-left: 30px;
 }
